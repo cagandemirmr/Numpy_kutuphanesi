@@ -17,3 +17,16 @@ print(x.max())
 print(x.min())
 print(np.sqrt(x))
 print(np.cos(x))
+----------
+import numpy as np
+
+x= np.array([[1,2],[4,5]])
+print(x.transpose())
+print(np.flip(x))
+print(np.linalg.det(x))
+#print(np.linspace(0,10,num=100))
+
+y=np.array([2,15,10,25,20,10,50,15,20])
+print(np.std(y))
+print(np.mean(y))
+print(np.median(y))
